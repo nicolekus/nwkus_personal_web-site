@@ -71,3 +71,15 @@ table {
     font-weight: bold;
     margin-bottom: 8px;
   }
+
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
