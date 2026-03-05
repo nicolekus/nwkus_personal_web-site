@@ -1,0 +1,73 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{color:pink; text-align: center; margin-bottom: 5px;}
+
+h2{color:pink;margin-top: 30px;}
+
+h3{color: pink;}
+
+img{border:2px solid black;
+    padding:10px;
+    margin: 10px;
+}
+
+
+a:link{color:blue; text-decoration:none;}
+a:visited{color:blue; text-decoration:none;}
+a:hover{color:red; text-decoration:underline;}
+a:active{color:red; text-decoration:underline;}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color:white;
+    padding: 20px;
+    border: 2px solid pink;
+}
+
+.error {
+    color: red;
+    font-weight:bold;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 80%; /* 80% of the available width */
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Adds horizontal dividers */
+  }
+
+  /* Alternating row colors for the table body */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background for even rows */
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows (optional, good practice) */
+  }
+
+  /* Hover effect for all table body rows */
+  tbody tr:hover {
+    background-color: #ddd; /* A different, distinct background color on hover */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate interactivity */
+  }
+
+  th {
+    background-color: pink;
+    color: white; /* White text for header cells */
+  }
+
+  caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
